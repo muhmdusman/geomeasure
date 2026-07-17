@@ -1,6 +1,6 @@
 <div align="center">
 
-# Web GIS Area Calculator
+# Geo Measure
 
 **Draw regions on a map, measure their real-world area, search for any place, and load live OpenStreetMap building footprints — all in the browser, no backend required.**
 

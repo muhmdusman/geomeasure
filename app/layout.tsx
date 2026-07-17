@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Web GIS Area Calculator",
+  title: "Geo Measure",
   description:
-    "Draw polygons and rectangles on an interactive map and calculate their geodesic area in km², acres, and marla (272.25 sq ft).",
+    "Draw polygons and rectangles on an interactive map and calculate their geodesic area in km², acres, and marla (272.25 sq ft). Search places and load live OpenStreetMap building footprints.",
 };
 
 // Explicit responsive viewport: fits the map to real device width and
