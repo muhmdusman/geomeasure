@@ -7,7 +7,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
  * Validates: Requirements 2.3, 2.4 (Strict-Mode single instance + cleanup).
  *
  * Real Leaflet needs a browser canvas, so we mock `leaflet` entirely and track
- * how many maps are created vs. removed. The assertion is on the NET number of
+ * how many  maps are created vs. removed. The assertion is on the NET number of
  * live map instances: even though React Strict Mode invokes the mount effect
  * twice, the `mapRef.current` guard must keep exactly one live map, and unmount
  * must fully tear it down via `map.remove()`.
