@@ -10,7 +10,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
  * how many  maps are created vs. removed. The assertion is on the NET number of
  * live map instances: even though React Strict Mode invokes the mount effect
  * twice, the `mapRef.current` guard must keep exactly one live map, and unmount
- * must fully tear it down via `map.remove()`.
+ * must fully tear it down via  `map.remove()`.
  */
 
 // Shared trackers, hoisted so the vi.mock factory below can close over them.
